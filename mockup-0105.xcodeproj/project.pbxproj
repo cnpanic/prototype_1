@@ -7,21 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B254EF102001F6F40070B167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B254EF0F2001F6F40070B167 /* Assets.xcassets */; };
+		B2BD862C2005CD65007227C9 /* DrawingCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BD861F2005CD64007227C9 /* DrawingCanvasView.swift */; };
+		B2BD862D2005CD65007227C9 /* CHContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BD86202005CD64007227C9 /* CHContentViewController.swift */; };
+		B2BD862E2005CD65007227C9 /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BD86212005CD64007227C9 /* UIViewController+Navigation.swift */; };
+		B2BD862F2005CD65007227C9 /* NavigationControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BD86222005CD64007227C9 /* NavigationControllers.swift */; };
+		B2BD86302005CD65007227C9 /* CHPagingScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BD86232005CD64007227C9 /* CHPagingScrollViewController.swift */; };
+		B2BD86312005CD65007227C9 /* CHViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BD86242005CD64007227C9 /* CHViews.swift */; };
+		B2BD86322005CD65007227C9 /* CHPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BD86252005CD64007227C9 /* CHPickerViewController.swift */; };
+		B2BD86332005CD65007227C9 /* SwipeActionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BD86262005CD64007227C9 /* SwipeActionTableViewCell.swift */; };
+		B2BD86342005CD65007227C9 /* FIlters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BD86272005CD64007227C9 /* FIlters.swift */; };
+		B2BD86352005CD65007227C9 /* CHTableViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BD86282005CD64007227C9 /* CHTableViewControllers.swift */; };
+		B2BD86362005CD65007227C9 /* CHModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BD86292005CD64007227C9 /* CHModalViewController.swift */; };
+		B2BD86372005CD65007227C9 /* CHControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BD862A2005CD64007227C9 /* CHControls.swift */; };
+		B2BD86382005CD65007227C9 /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BD862B2005CD64007227C9 /* RecordButton.swift */; };
 		B2E48D201FFF55E900115DA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E48D1F1FFF55E900115DA6 /* AppDelegate.swift */; };
 		B2E48D221FFF55E900115DA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E48D211FFF55E900115DA6 /* ViewController.swift */; };
 		B2E48D251FFF55E900115DA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E48D231FFF55E900115DA6 /* Main.storyboard */; };
-		B2E48D271FFF55E900115DA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2E48D261FFF55E900115DA6 /* Assets.xcassets */; };
 		B2E48D2A1FFF55E900115DA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E48D281FFF55E900115DA6 /* LaunchScreen.storyboard */; };
+		B2E48D381FFF64D700115DA6 /* 스크린샷 2018-01-05 16.45.41.png in Resources */ = {isa = PBXBuildFile; fileRef = B2E48D371FFF64D700115DA6 /* 스크린샷 2018-01-05 16.45.41.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B254EF0F2001F6F40070B167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2BD861F2005CD64007227C9 /* DrawingCanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingCanvasView.swift; sourceTree = "<group>"; };
+		B2BD86202005CD64007227C9 /* CHContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHContentViewController.swift; sourceTree = "<group>"; };
+		B2BD86212005CD64007227C9 /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
+		B2BD86222005CD64007227C9 /* NavigationControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllers.swift; sourceTree = "<group>"; };
+		B2BD86232005CD64007227C9 /* CHPagingScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHPagingScrollViewController.swift; sourceTree = "<group>"; };
+		B2BD86242005CD64007227C9 /* CHViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHViews.swift; sourceTree = "<group>"; };
+		B2BD86252005CD64007227C9 /* CHPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHPickerViewController.swift; sourceTree = "<group>"; };
+		B2BD86262005CD64007227C9 /* SwipeActionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeActionTableViewCell.swift; sourceTree = "<group>"; };
+		B2BD86272005CD64007227C9 /* FIlters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIlters.swift; sourceTree = "<group>"; };
+		B2BD86282005CD64007227C9 /* CHTableViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHTableViewControllers.swift; sourceTree = "<group>"; };
+		B2BD86292005CD64007227C9 /* CHModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHModalViewController.swift; sourceTree = "<group>"; };
+		B2BD862A2005CD64007227C9 /* CHControls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHControls.swift; sourceTree = "<group>"; };
+		B2BD862B2005CD64007227C9 /* RecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordButton.swift; sourceTree = "<group>"; };
 		B2E48D1C1FFF55E900115DA6 /* mockup-0105.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mockup-0105.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2E48D1F1FFF55E900115DA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2E48D211FFF55E900115DA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B2E48D241FFF55E900115DA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B2E48D261FFF55E900115DA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2E48D291FFF55E900115DA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2E48D2B1FFF55E900115DA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2E48D371FFF64D700115DA6 /* 스크린샷 2018-01-05 16.45.41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "스크린샷 2018-01-05 16.45.41.png"; path = "Assets.xcassets/스크린샷 2018-01-05 16.45.41.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +63,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B2BD861E2005CD64007227C9 /* PilotPlant */ = {
+			isa = PBXGroup;
+			children = (
+				B2BD861F2005CD64007227C9 /* DrawingCanvasView.swift */,
+				B2BD86202005CD64007227C9 /* CHContentViewController.swift */,
+				B2BD86212005CD64007227C9 /* UIViewController+Navigation.swift */,
+				B2BD86222005CD64007227C9 /* NavigationControllers.swift */,
+				B2BD86232005CD64007227C9 /* CHPagingScrollViewController.swift */,
+				B2BD86242005CD64007227C9 /* CHViews.swift */,
+				B2BD86252005CD64007227C9 /* CHPickerViewController.swift */,
+				B2BD86262005CD64007227C9 /* SwipeActionTableViewCell.swift */,
+				B2BD86272005CD64007227C9 /* FIlters.swift */,
+				B2BD86282005CD64007227C9 /* CHTableViewControllers.swift */,
+				B2BD86292005CD64007227C9 /* CHModalViewController.swift */,
+				B2BD862A2005CD64007227C9 /* CHControls.swift */,
+				B2BD862B2005CD64007227C9 /* RecordButton.swift */,
+			);
+			path = PilotPlant;
+			sourceTree = "<group>";
+		};
 		B2E48D131FFF55E900115DA6 = {
 			isa = PBXGroup;
 			children = (
@@ -54,10 +102,12 @@
 		B2E48D1E1FFF55E900115DA6 /* mockup-0105 */ = {
 			isa = PBXGroup;
 			children = (
+				B254EF0F2001F6F40070B167 /* Assets.xcassets */,
+				B2BD861E2005CD64007227C9 /* PilotPlant */,
+				B2E48D371FFF64D700115DA6 /* 스크린샷 2018-01-05 16.45.41.png */,
 				B2E48D1F1FFF55E900115DA6 /* AppDelegate.swift */,
 				B2E48D211FFF55E900115DA6 /* ViewController.swift */,
 				B2E48D231FFF55E900115DA6 /* Main.storyboard */,
-				B2E48D261FFF55E900115DA6 /* Assets.xcassets */,
 				B2E48D281FFF55E900115DA6 /* LaunchScreen.storyboard */,
 				B2E48D2B1FFF55E900115DA6 /* Info.plist */,
 			);
@@ -96,7 +146,7 @@
 				TargetAttributes = {
 					B2E48D1B1FFF55E900115DA6 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -124,7 +174,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2E48D2A1FFF55E900115DA6 /* LaunchScreen.storyboard in Resources */,
-				B2E48D271FFF55E900115DA6 /* Assets.xcassets in Resources */,
+				B2E48D381FFF64D700115DA6 /* 스크린샷 2018-01-05 16.45.41.png in Resources */,
+				B254EF102001F6F40070B167 /* Assets.xcassets in Resources */,
 				B2E48D251FFF55E900115DA6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +187,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2BD86352005CD65007227C9 /* CHTableViewControllers.swift in Sources */,
+				B2BD86302005CD65007227C9 /* CHPagingScrollViewController.swift in Sources */,
+				B2BD86312005CD65007227C9 /* CHViews.swift in Sources */,
+				B2BD86342005CD65007227C9 /* FIlters.swift in Sources */,
 				B2E48D221FFF55E900115DA6 /* ViewController.swift in Sources */,
+				B2BD86322005CD65007227C9 /* CHPickerViewController.swift in Sources */,
+				B2BD86332005CD65007227C9 /* SwipeActionTableViewCell.swift in Sources */,
+				B2BD86362005CD65007227C9 /* CHModalViewController.swift in Sources */,
+				B2BD86372005CD65007227C9 /* CHControls.swift in Sources */,
+				B2BD862F2005CD65007227C9 /* NavigationControllers.swift in Sources */,
+				B2BD862E2005CD65007227C9 /* UIViewController+Navigation.swift in Sources */,
+				B2BD862D2005CD65007227C9 /* CHContentViewController.swift in Sources */,
 				B2E48D201FFF55E900115DA6 /* AppDelegate.swift in Sources */,
+				B2BD862C2005CD65007227C9 /* DrawingCanvasView.swift in Sources */,
+				B2BD86382005CD65007227C9 /* RecordButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,12 +338,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PXBFWXK3BB;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "mockup-0105/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chu.mockup-0105";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,12 +354,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PXBFWXK3BB;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "mockup-0105/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chu.mockup-0105";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
