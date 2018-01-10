@@ -707,15 +707,12 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RTI-2v-U7I">
                                 <rect key="frame" x="198" y="375" width="109" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="Q1M-4E-9kV" kind="show" id="2ED-xT-jfO"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PcT-D2-9Jc">
                                 <rect key="frame" x="67" y="375" width="123" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="NeS-6W-lZc" kind="show" id="J36-k7-4e3"/>
+                                    <segue destination="Q1M-4E-9kV" kind="show" id="io6-dX-nnc"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -727,7 +724,7 @@
             </objects>
             <point key="canvasLocation" x="2837.5999999999999" y="2471.5142428785607"/>
         </scene>
-        <!--Web Scene-->
+        <!--Serial Number를 가리고 찍으세요-->
         <scene sceneID="yhD-y5-DQI">
             <objects>
                 <viewController id="Q1M-4E-9kV" customClass="WebScene" customModule="mockup_0105" customModuleProvider="target" sceneMemberID="viewController">
@@ -737,9 +734,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="hqw-sh-scw"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Serial Number를 가리고 찍으세요" id="CGO-wI-2L9">
+                        <barButtonItem key="rightBarButtonItem" title="다음&gt;" springLoaded="YES" id="wVc-vq-cZe">
+                            <color key="tintColor" red="0.15703036201279041" green="0.49310301758106168" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="pageURL">
-                            <mutableString key="value">https://everymac.com/ultimate-mac-lookup/?search_keywords=C02RFDPJFVH3&amp;g-recaptcha-response=03AMPJSYXf1TQxPNOoRm1l130juG-esskPBlWLCBvXJ6sOZKB5Ku86_Z4QuWoBFbxZQN6mMqaM1tulI9ZQbFSYmRWM6ccoZrFJSA74GuRNb73AchXNLSsMX-nhfw7f_lewhgI9Z2IdbK4tH73K5jRJed7EmOdlpnpO6Mv1EntjDE0ZXK7HwyeCkCBafCFuTrCsY6Buix6NEEP24IGGWgoo63BMBsoncDwZyhW_w_WKP38g9clLlthbPGcAJFgRyEYOmZmghzjO5-b8be0UMPebFqFup5HrO-CG3qs7Rof4Wrp07N57UFn1mqFzWprsUYnidplsmCSRaXhkWi5jlvIQ3F9auCaAy05y9YQds14YmjCPedS8cDJ2zaNELDhs0prScZ4WMrCMINbDDUiGhayxlwkZhT4858Q4Kuw8SwcTfB7oYC6mNSabXKM</mutableString>
+                            <mutableString key="value">http://everymac.com/ultimate-mac-lookup/?search_keywords=C02RFDPJFVH3&amp;g-recaptcha-response=03AMPJSYXf1TQxPNOoRm1l130juG-esskPBlWLCBvXJ6sOZKB5Ku86_Z4QuWoBFbxZQN6mMqaM1tulI9ZQbFSYmRWM6ccoZrFJSA74GuRNb73AchXNLSsMX-nhfw7f_lewhgI9Z2IdbK4tH73K5jRJed7EmOdlpnpO6Mv1EntjDE0ZXK7HwyeCkCBafCFuTrCsY6Buix6NEEP24IGGWgoo63BMBsoncDwZyhW_w_WKP38g9clLlthbPGcAJFgRyEYOmZmghzjO5-b8be0UMPebFqFup5HrO-CG3qs7Rof4Wrp07N57UFn1mqFzWprsUYnidplsmCSRaXhkWi5jlvIQ3F9auCaAy05y9YQds14YmjCPedS8cDJ2zaNELDhs0prScZ4WMrCMINbDDUiGhayxlwkZhT4858Q4Kuw8SwcTfB7oYC6mNSabXKM</mutableString>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </viewController>
@@ -2297,6 +2299,6 @@
         <segue reference="YJh-kZ-7mk"/>
         <segue reference="Vwj-ol-PLD"/>
         <segue reference="3Af-qa-1au"/>
-        <segue reference="J36-k7-4e3"/>
+        <segue reference="6GL-Bw-ks3"/>
     </inferredMetricsTieBreakers>
 </document>
