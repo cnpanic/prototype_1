@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -276,6 +275,7 @@
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gbx-nJ-68U">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <connections>
                                                         <segue destination="CTw-RI-BqT" kind="show" animates="NO" id="Nkc-5y-pKl"/>
                                                     </connections>
@@ -3767,7 +3767,6 @@
         <!--Alert Scene-->
         <scene sceneID="aJ7-qZ-E1z">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="u8l-ll-u85" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="tAw-Ku-iRI" customClass="AlertScene" customModule="mockup_0105" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7Qw-2D-DU1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -3790,6 +3789,7 @@
                         <userDefinedRuntimeAttribute type="string" keyPath="message" value="상세 제품을 고르세요."/>
                     </userDefinedRuntimeAttributes>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u8l-ll-u85" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5449" y="3286"/>
         </scene>
